@@ -1,0 +1,26 @@
+@media only screen and (max-device-width: 480px) {
+  div#wrapper {
+    width: 400px;
+  }
+
+  #first {
+    padding: 10%;
+    background-color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  #second {
+    padding: 10%;
+    background-color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  #third {
+    padding: 10%;
+    background-color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
