@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Yaldevi:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap');
+
+#indexbody {
+  background-color: black;
+}
+
+#indexdiv {
+  background-color: white;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  border-style: solid;
+  border-color: chocolate;
+  border-radius: 20px;
+  margin-left: 45%;
+  margin-right: 45%;
+  text-align: center;
+  padding: 0;
+  padding-top: 20px;
+}
+
+h1 {
+  font-family: 'Gemunu Libre', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  font-family: 'Yaldevi', sans-serif;
+  padding: 10px;
+}
+
+a,
+li {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 5px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+#title {
+  border-style: solid;
+  border-color: chocolate;
+  background-color: chocolate;
+  padding: 5px;
+  color: white;
+}
+
+img {
+  width: 200px;
+}
+
+#csbody {
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+}
+
+#typebody {
+  text-align: center;
+  background-color: darkcyan;
+  border-style: solid;
+  border-color: white;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+}
+
+#menuid {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: darkcyan;
+  border-style: solid;
+  border-color: darkcyan;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#pageid {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#backgroundid {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-color: rgb(60, 60, 60);
+  border-style: solid;
+  border-color: rgb(60, 60, 60);
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#white {
+  color: black;
+}
+
+body {
+  background-color: black;
+}
+
+#personas {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#p1 {
+  grid-column: 1/2;
+  background-color: darkcyan;
+  border-style: solid;
+  border-color: darkcyan;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#p2 {
+  grid-column: 2/3;
+  background-color: darkcyan;
+  border-style: solid;
+  border-color: darkcyan;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#scenarios {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto;
+}
+
+#s1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: darkcyan;
+  border-style: solid;
+  border-color: darkcyan;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#s2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: darkcyan;
+  border-style: solid;
+  border-color: darkcyan;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#s3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-color: darkcyan;
+  border-style: solid;
+  border-color: darkcyan;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#s4 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  background-color: darkcyan;
+  border-style: solid;
+  border-color: darkcyan;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#s5 {
+  grid-column: 5/6;
+  grid-row: 1/2;
+  background-color: darkcyan;
+  border-style: solid;
+  border-color: darkcyan;
+  border-radius: 25px;
+  text-align: center;
+}
+
+div {
+  margin: 5%;
+}
+
+#topmenu {
+  color: white;
+}

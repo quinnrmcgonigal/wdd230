@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <title>Activity 2 Solution</title>
+  
+</head>
+
+<body>
+  <main>
+    <section onload="showDiv1();" class="smaller" id="card1">
+      <img src="images/personal.png" alt="Personal" />
+      <h2>Personal</h2>
+      <ul>
+        <li><b>1</b> Domain</li>
+        <li><b>UNLIMITED</b> Storage</li>
+        <li>No Free Domain</li>
+      </ul>
+      <div class="pricing">
+        <em>$</em><span>3</span><em>99</em><br />per month
+      </div>
+      <a onclick="showAlert()" href="#">SignUp</a>
+    </section>
+    <section onload="showDiv2();" id="card2">
+      <div class="popular">Most Popular</div>
+      <img src="images/business.png" alt="Business" />
+      <h2>Business</h2>
+      <ul>
+        <li><b>UNLIMITED</b> Domain</li>
+        <li><b>UNLIMITED</b> Storage</li>
+        <li>Free Domain</li>
+      </ul>
+      <div class="pricing">
+        <em>$</em><span>5</span><em>99</em><br />per month
+      </div>
+      <a onclick="showAlert()" href="#">SignUp</a>
+    </section>
+    <section class="smaller" onload="showDiv3();" id="card3">
+      <img src="images/enterprise.png" alt="Enterprise" />
+      <h2>Enterprise</h2>
+      <ul>
+        <li><b>UNLIMITED</b> Domain</li>
+        <li><b>UNLIMITED</b> Storage</li>
+        <li><b>FREE</b> SSL</li>
+        <li class="pricing">
+          <em>$</em><span>9</span><em>99</em><br />per month
+        </li>
+        <a onclick="showAlert()" href="#">SignUp</a>
+      </ul>
+    </section>
+  </main>
+  <!-- UPDATE THIS LINK WITH THE URL TO YOUR GITHUB REPOSITORY -->
+  <a href='URL_to_Your_Github_Repository' class="no-style"><button class='github-button'>View on Github</button></a>
+  <script src="class.js"></script>
+</body>
+
+</html>
