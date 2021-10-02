@@ -37,3 +37,5 @@ function showDiv3() {
 }
 
 showDiv3();
+
+document.getElementById("bpricing").style.fontSize = "x-large";
