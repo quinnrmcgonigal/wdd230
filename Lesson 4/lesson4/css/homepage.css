@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Yaldevi:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap');
+
+nav {
+  margin: 0 auto;
+}
+.navigation {
+  list-style: none;
+  max-width: 760px;
+  padding: 0;
+}
+.navigation li:first-child {
+  display: block;
+}
+.navigation li {
+  display: none;
+}
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  transition: 0.5s;
+
+  background-color: darkcyan;
+}
+.navigation a:hover {
+  color: white;
+  background-color: black;
+}
+
+.logopic {
+  width: 100px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  font-family: 'Gemunu Libre', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h2,
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  font-family: 'Yaldevi', sans-serif;
+  padding: 10px;
+}
+
+.responsive li {
+  display: block;
+}
+
+.hero,
+.fiveday,
+.article,
+.contactinfo {
+  text-align: center;
+  border-style: solid;
+  border-radius: 20px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(60, 60, 60);
+}
+
+.menu {
+  background-color: darkcyan;
+}
+
+#bottom {
+  color: white;
+  background-color: darkcyan;
+  padding: 30px;
+}
+
+/* Media Query for medium+ 
+
+
+
+
+
+
+
+
+
+
+
+
+views */
+@media only screen and (min-width: 32.5em) {
+  .navigation {
+    display: flex;
+    margin: auto;
+  }
+  .navigation li {
+    display: block; /* change state in small view */
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+    padding: 20px;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .logopic {
+    width: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  h2,
+  a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  p {
+    font-family: 'Yaldevi', sans-serif;
+    padding: 10px;
+  }
+  /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+    <ul class="navigation responsive">
+  */
+
+  .hero,
+  .fiveday,
+  .article,
+  .contactinfo {
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  body {
+    background-color: rgb(60, 60, 60);
+  }
+
+  .menu {
+    background-color: darkcyan;
+  }
+
+  #bottom {
+    color: white;
+    background-color: darkcyan;
+    padding: 30px;
+  }
+}

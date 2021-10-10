@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300;400&family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@200&family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300;400&family=Roboto:wght@100;500&display=swap');
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: gray;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+
+#card {
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+}
+
+.intro {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+#intro {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+}
+
+.delta {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.where {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+#where {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  background-color: rgb(5, 26, 52);
+  color: white;
+}
+
+.den {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.plane {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: auto;
+}
+
+.bos {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.information {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.date {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.flight {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.gate {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+#information {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  background-color: rgb(241, 241, 241);
+}
+
+.barcode {
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
