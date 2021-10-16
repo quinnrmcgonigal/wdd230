@@ -3,12 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap');
 
+a.active {
+  background-color: black;
+}
+
 nav {
   margin: 0 auto;
 }
 .navigation {
   list-style: none;
-  max-width: 760px;
+  max-width: 100%;
   padding: 0;
 }
 .navigation li:first-child {
@@ -162,6 +166,10 @@ li {
 }
 
 @media only screen and (min-width: 600px) {
+  a.active {
+    background-color: black;
+  }
+
   .navigation {
     display: flex;
     margin: auto;
@@ -324,7 +332,11 @@ li {
 }
 
 @media only screen and (min-width: 1040px) {
+  a.active {
+    background-color: black;
+  }
   .navigation {
+    justify-content: space-between;
     display: flex;
     margin: auto;
   }
