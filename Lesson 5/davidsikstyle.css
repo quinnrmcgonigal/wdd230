@@ -66,22 +66,56 @@ p {
 .profiles {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: absolute;
+  top: 580px;
+  left: 30px;
 }
 .profiles img {
   border-radius: 50%;
   opacity: 0.6;
+  width: 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .profiles .firstimg {
   opacity: 1;
 }
 
+.text {
+  color: white;
+}
+
 @media (min-width: 750px) {
   body {
+  }
+
+  .mainimg {
+    background: rgb(8, 169, 233);
+    background: linear-gradient(
+      0deg,
+      rgba(46, 112, 182, 1) 0%,
+      rgba(163, 157, 241, 0.758) 28%,
+      rgba(61, 0, 79, 0) 100%
+    );
+    display: inline block;
+    width: 100%;
   }
 }
 
 @media (min-width: 1040px) {
   body {
+  }
+
+  .mainimg {
+    background: rgb(46, 112, 182);
+    background: linear-gradient(
+      0deg,
+      rgb(116, 12, 235) 0%,
+      rgba(237, 3, 225, 0.758) 28%,
+      rgba(95, 0, 24, 0) 100%
+    );
+    display: inline block;
+    width: 100%;
   }
 }
