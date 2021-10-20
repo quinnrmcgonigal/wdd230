@@ -164,7 +164,7 @@ li {
   display: none;
 }
 .hero {
-  width: 350px;
+  max-width: 350px;
   padding: 20px;
   border-color: rgb(236, 91, 56);
   background-color: black;
