@@ -10,6 +10,12 @@
   text-align: center;
 }
 
+p,
+th {
+  font-family: 'Yaldevi', sans-serif;
+  padding: 10px;
+}
+
 a.active {
   background-color: black;
 }
@@ -148,6 +154,7 @@ li {
 
 .small {
   max-width: 600px;
+  width: 100%;
 }
 
 .medium,
