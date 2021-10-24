@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v111/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2)
+    format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  animation: rotation 10s;
+  font-size: 30px;
+  color: white;
+  width: 40px;
+  position: relative;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+@keyframes rotation {
+  10% {
+    transform: rotate(20deg);
+    font-size: 35px;
+  }
+  20% {
+    transform: rotate(0deg);
+    font-size: 30px;
+  }
+  30% {
+    transform: rotate(-20deg);
+    font-size: 35px;
+  }
+  40% {
+    transform: rotate(0deg);
+    font-size: 30px;
+  }
+  50% {
+    transform: rotate(20deg);
+    font-size: 35px;
+  }
+  60% {
+    transform: rotate(0deg);
+    font-size: 30px;
+  }
+  70% {
+    transform: rotate(-20deg);
+    font-size: 35px;
+  }
+  80% {
+    transform: rotate(0deg);
+    font-size: 30px;
+  }
+  90% {
+    transform: rotate(20deg);
+    font-size: 35px;
+  }
+  100% {
+    transform: rotate(0deg);
+    font-size: 30px;
+  }
+}
+
+body {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.pancake {
+  grid-column: 2/3;
+  max-width: 600px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #111;
+  margin-top: 10px;
+}
+.alarm {
+  background-color: rgb(240, 145, 53);
+  padding: 10px;
+}
+.info {
+  text-align: center;
+  margin: 0 auto;
+}
+.info h3 {
+  color: rgb(240, 145, 53);
+}
+.video {
+  grid-column: 2/3;
+}
+iframe {
+  margin-top: 10px;
+}
