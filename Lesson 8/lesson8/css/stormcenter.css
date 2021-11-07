@@ -1,0 +1,12 @@
+label, legend, form {
+    color: white;
+    font-family: 'Yaldevi', sans-serif;
+  padding: 10px;
+}
+
+main { 
+  margin: 0 auto; 
+  max-width:400px;
+  text-align: center;
+  width: 100%;
+  }

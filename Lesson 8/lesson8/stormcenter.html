@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/stormcenter.css">
+    <link rel="stylesheet" href="css/homepage.css">
+</head>
+<body>
+    <div class="logo">
+        <img class="logopic" src="images/newlogo.png">
+        <h1>Big Weather Guys</h1>
+    </div>
+    <nav class="menu">
+        <ul class="navigation">
+            <li><a class="home" href="#">Menu</a></li>
+            <li><a href="../Lesson 6/lesson6/stormindex.html">Home</a></li>
+            <li><a href="#">Driggs</a></li>
+            <li><a href="#">Victor</a></li>
+            <li><a href="#">Jackson Hole</a></li>
+            <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+            <li><a href="../../Lesson 7/gallery.html">Gallery</a></li>
+        </ul>
+        <script src="js/menu.js" defer></script>
+    </nav>
+    <main>
+        <form action="thanks.html">
+            <fieldset>
+            <legend>Personal Info</legend>
+                <label>Full Name<input pattern="[A-Za-z]{5}" type="text" name="fullname"></label><br>
+                <label>Email<input type="email" placeholder="johndoe@gmail.com" name="email"></label><br>
+                <label>Phone Number*<input type="tel" required name="phone"></label><br>
+                <label>Zip Code*<input type="number" required name="zip"></label><br>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Info</legend>
+                <label>Date<input type="date" name="date"></label><br>
+                <form class="radio" name="storm">Storm Type
+                    <input list="stormtypes">
+                    <datalist id="stormtypes">
+                      <option value="Flash Flood">
+                      <option value="Hail">
+                      <option value="Hurricane">
+                      <option value="Thunderstorm">
+                      <option value="Tornado">
+                    </datalist>
+                </form><br>
+                <label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+                    <input name="slider" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                </label><br>
+                <label>Location
+                    <select>
+                        <option>Select Region</option>
+                        <option>Driggs</option>
+                        <option>Victor</option>
+                        <option>Jackson</option>
+                    </select>
+                </label><br>
+                <label>User in-danger level<br>
+                    <input type="radio" name="yes" value="Yes">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" name="maybe" value="Maybe">
+                    <label for="maybe">Maybe</label><br>
+                    <input type="radio" name="no" value="No">
+                    <label for="no">No</label><br>
+                </label><br>
+                
+            </fieldset>
+            <input type="submit" value="Submit Report">
+            <script src="js/slider.js"></script>
+        </form>
+    </main>
+    <div>
+        <p id="bottom">©Big Weather Guys | Attributions | Quinn McGonigal <span id="demo"></span> </p>
+    </div>
+    <script src="js/date.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+          families: [
+             'Yaldevi', 'Gemunu+Libre', 'Josefin+Sans', 'Montserrat'
+          ]
+        }
+      });</script>
+</body>
+</html>
