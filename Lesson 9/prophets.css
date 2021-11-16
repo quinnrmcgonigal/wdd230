@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Raleway:wght@200&display=swap');
+
+h1, h2, p, footer {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+main div.cards{
+     display: grid;
+     grid-template-columns: auto;
+     grid-gap: 20px;
+     padding: 15px;
+     border-radius: 2px;
+     text-align: center;
+     
+ }
+
+ section {
+     border-style: solid;
+     border-radius: 10px;
+     border-color: rgb(110, 91, 179);
+     padding: 5px;
+     border-width: 5px;
+     background-color: silver;
+ }
+
+
+ @media(min-width: 800px){
+  
+    main div.cards{
+        grid-template-columns: 1fr 1fr;
+    }   
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        box-shadow: 2px 2px 20px 10px #888;
+    }
+ }
+ @media(min-width: 1300px){
+    main div.cards{
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        max-height: 350px;
+        max-width: 300px;
+        box-shadow: 2px 2px 20px 10px #888;
+    }
+     
+ }
+
+ footer {
+     text-align: center;
+ }

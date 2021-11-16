@@ -5,6 +5,14 @@ img {
     border-width: 1px;
 }
 
+h1 {
+    padding: 10px;
+}
+
+h3 {
+    
+}
+
 .headerclr {
     color: black;
 }
@@ -51,58 +59,30 @@ img {
     color: rgb(237, 118, 62);
 }
 
-
-@media only screen and (min-width: 1000px) {
-
-main {
-display: grid;
-grid-template-columns: auto auto auto;
-grid-template-rows: auto;
-}
-
-.driggs {
-border-style: solid;
-border-color: rgb(234, 65, 51);
-border-radius: 25px;
-text-align: center;
-background-color: rgb(254, 244, 228);
-margin-top: 20px;
-color: rgb(237, 118, 62);
-}
-
-.victor {
-border-style: solid;
-border-color: rgb(234, 65, 51);
-border-radius: 25px;
-margin-left: 10px;
-margin-right: 10px;
-text-align: center;
-background-color: rgb(254, 244, 228);
-margin-top: 20px;
-color: rgb(237, 118, 62);
-}
-
-.jackson {
-border-style: solid;
-border-color: rgb(234, 65, 51);
-border-radius: 25px;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
-background-color: rgb(254, 244, 228);
-margin-top: 20px;
-color: rgb(237, 118, 62);
-}
-
 @media only screen and (min-width: 650px) {
     main {
         display: grid;
-        grid-template-columns: auto auto ;
-        grid-template-rows: auto auto;
+        grid-template-columns: auto auto auto ;
+        grid-template-rows: auto auto auto;
+    }
+
+    .driggspic {
+        float: left;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .jacksonpic {
+        float: left;
+        border-radius: 20px 0px 0px 20px;
+    }
+    
+    .victorpic {
+        float: right;
+        border-radius: 0px 20px 20px 0px;
     }
     
     .driggs {
-        grid-column: 1/2;
+        grid-column: 1/3;
         grid-row: 1/2;
         border-style: solid;
         border-color: rgb(234, 65, 51);
@@ -113,24 +93,12 @@ color: rgb(237, 118, 62);
         background-color: rgb(254, 244, 228);
         margin-top: 20px;
         color: rgb(237, 118, 62);
+        width: 100%;
+        max-height: 300px;
     }
     
     .victor {
-        grid-column: 2/3;
-        grid-row: 1/2;
-        border-style: solid;
-        border-color: rgb(234, 65, 51);
-        border-radius: 25px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        background-color: rgb(254, 244, 228);
-        margin-top: 20px;
-        color: rgb(237, 118, 62);
-    }
-    
-    .jackson {
-        grid-column: 1/2;
+        grid-column: 1/3;
         grid-row: 2/3;
         border-style: solid;
         border-color: rgb(234, 65, 51);
@@ -141,6 +109,24 @@ color: rgb(237, 118, 62);
         background-color: rgb(254, 244, 228);
         margin-top: 20px;
         color: rgb(237, 118, 62);
+        width: 100%;
+        max-height: 300px;
+    }
+    
+    .jackson {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        border-style: solid;
+        border-color: rgb(234, 65, 51);
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: rgb(254, 244, 228);
+        margin-top: 20px;
+        color: rgb(237, 118, 62);
+        width: 100%;
+        max-height: 300px;
     }
 }
 
@@ -148,24 +134,12 @@ color: rgb(237, 118, 62);
 
     main {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto 20px auto 20px auto;
         grid-template-rows: auto;
     }
 
     .driggs {
         grid-column: 1/2;
-        grid-row: 1/2;
-        border-style: solid;
-        border-color: rgb(234, 65, 51);
-        border-radius: 25px;
-        text-align: center;
-        background-color: rgb(254, 244, 228);
-        margin-top: 20px;
-        color: rgb(237, 118, 62);
-    }
-
-    .victor {
-        grid-column: 2/3;
         grid-row: 1/2;
         border-style: solid;
         border-color: rgb(234, 65, 51);
@@ -176,9 +150,12 @@ color: rgb(237, 118, 62);
         background-color: rgb(254, 244, 228);
         margin-top: 20px;
         color: rgb(237, 118, 62);
+        width: 100%;
+        max-width: 400px;
+        max-height: 800px;
     }
 
-    .jackson {
+    .victor {
         grid-column: 3/4;
         grid-row: 1/2;
         border-style: solid;
@@ -190,5 +167,38 @@ color: rgb(237, 118, 62);
         background-color: rgb(254, 244, 228);
         margin-top: 20px;
         color: rgb(237, 118, 62);
+        width: 100%;
+        max-width: 400px;
+        max-height: 800px;
+    }
+
+    .jackson {
+        grid-column: 5/6;
+        grid-row: 1/2;
+        border-style: solid;
+        border-color: rgb(234, 65, 51);
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: rgb(254, 244, 228);
+        margin-top: 20px;
+        color: rgb(237, 118, 62);
+        width: 100%;
+        max-width: 400px;
+        max-height: 800px;
+        
+    }
+
+    .driggspic {
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .jacksonpic {
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .victorpic {
+        border-radius: 20px 20px 0px 0px;
     }
 }
