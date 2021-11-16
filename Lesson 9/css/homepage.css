@@ -120,6 +120,7 @@ li {
 @media only screen and (min-width: 650px) {
   a.active {
     background-color: black;
+    border-radius: 100px;
   }
 
   .navigation {
@@ -225,7 +226,7 @@ li {
   h1 {
     font-family: 'Gemunu Libre', sans-serif;
     text-align: center;
-    color: black;
+    color: white;
   }
 
   h2,
