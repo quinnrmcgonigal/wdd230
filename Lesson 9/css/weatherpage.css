@@ -1,0 +1,194 @@
+img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    border-width: 1px;
+}
+
+.headerclr {
+    color: black;
+}
+
+.driggs {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-style: solid;
+    border-color: rgb(234, 65, 51);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(254, 244, 228);
+    margin-top: 20px;
+    color: rgb(237, 118, 62);
+}
+
+.victor {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-style: solid;
+    border-color: rgb(234, 65, 51);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(254, 244, 228);
+    margin-top: 20px;
+    color: rgb(237, 118, 62);
+}
+
+.jackson {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-style: solid;
+    border-color: rgb(234, 65, 51);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(254, 244, 228);
+    margin-top: 20px;
+    color: rgb(237, 118, 62);
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+main {
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto;
+}
+
+.driggs {
+border-style: solid;
+border-color: rgb(234, 65, 51);
+border-radius: 25px;
+text-align: center;
+background-color: rgb(254, 244, 228);
+margin-top: 20px;
+color: rgb(237, 118, 62);
+}
+
+.victor {
+border-style: solid;
+border-color: rgb(234, 65, 51);
+border-radius: 25px;
+margin-left: 10px;
+margin-right: 10px;
+text-align: center;
+background-color: rgb(254, 244, 228);
+margin-top: 20px;
+color: rgb(237, 118, 62);
+}
+
+.jackson {
+border-style: solid;
+border-color: rgb(234, 65, 51);
+border-radius: 25px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: rgb(254, 244, 228);
+margin-top: 20px;
+color: rgb(237, 118, 62);
+}
+
+@media only screen and (min-width: 650px) {
+    main {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto;
+    }
+    
+    .driggs {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        border-style: solid;
+        border-color: rgb(234, 65, 51);
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: rgb(254, 244, 228);
+        margin-top: 20px;
+        color: rgb(237, 118, 62);
+    }
+    
+    .victor {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        border-style: solid;
+        border-color: rgb(234, 65, 51);
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: rgb(254, 244, 228);
+        margin-top: 20px;
+        color: rgb(237, 118, 62);
+    }
+    
+    .jackson {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        border-style: solid;
+        border-color: rgb(234, 65, 51);
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: rgb(254, 244, 228);
+        margin-top: 20px;
+        color: rgb(237, 118, 62);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    main {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+    }
+
+    .driggs {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        border-style: solid;
+        border-color: rgb(234, 65, 51);
+        border-radius: 25px;
+        text-align: center;
+        background-color: rgb(254, 244, 228);
+        margin-top: 20px;
+        color: rgb(237, 118, 62);
+    }
+
+    .victor {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        border-style: solid;
+        border-color: rgb(234, 65, 51);
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: rgb(254, 244, 228);
+        margin-top: 20px;
+        color: rgb(237, 118, 62);
+    }
+
+    .jackson {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        border-style: solid;
+        border-color: rgb(234, 65, 51);
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: rgb(254, 244, 228);
+        margin-top: 20px;
+        color: rgb(237, 118, 62);
+    }
+}

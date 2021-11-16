@@ -1,0 +1,266 @@
+.logo {
+  color: white;
+}
+
+p,
+th,
+h3 {
+  font-family: 'Yaldevi', sans-serif;
+  padding: 10px;
+}
+
+a.active {
+  background-color: black;
+}
+
+nav {
+  margin: 0 auto;
+}
+.navigation {
+  list-style: none;
+  max-width: 100%;
+  padding: 0;
+}
+.navigation li:first-child {
+  display: block;
+}
+.navigation li {
+  display: none;
+}
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  transition: 0.5s;
+
+  background-color: rgb(234, 65, 51);
+}
+.navigation a:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+  border-style: solid;
+  border-radius: 100px;
+}
+
+.logopic {
+  width: 100px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  font-family: 'Gemunu Libre', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h2,
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+p,
+th,
+h3 {
+  font-family: 'Yaldevi', sans-serif;
+  padding: 10px;
+}
+
+p,
+li {
+  font-family: 'Yaldevi', sans-serif;
+  padding: 10px;
+}
+
+.responsive li {
+  display: block;
+}
+
+footer {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(0, 16, 43);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+  background-color: rgb(234, 65, 51);
+}
+
+#bottom {
+  color: white;
+  background-color: rgb(243, 173, 73);
+  padding: 30px;
+}
+
+th {
+  border-right: solid;
+  border-left: solid;
+  border-color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.small {
+  max-width: 650px;
+  width: 100%;
+}
+@media only screen and (min-width: 650px) {
+  a.active {
+    background-color: black;
+  }
+
+  .navigation {
+    display: flex;
+    margin: auto;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+    padding: 20px;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .logopic {
+    width: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  h2,
+  a,
+  li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  p,
+  th {
+    font-family: 'Yaldevi', sans-serif;
+    padding: 10px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  body {
+    background-color: rgb(0, 16, 43);
+  }
+
+  .menu {
+    background-color: rgb(234, 65, 51);
+  }
+
+  #bottom {
+    color: white;
+    background-color: rgb(243, 173, 73);
+    padding: 30px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  a.active {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-radius: 100px;
+  }
+
+  .navigation {
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+    padding: 20px;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .logopic {
+    width: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center;
+    color: black;
+  }
+
+  h2,
+  a,
+  li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  p,
+  th {
+    font-family: 'Yaldevi', sans-serif;
+    padding: 10px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  body {
+    background-color: rgb(0, 16, 43);
+  }
+
+  #bottom {
+    color: white;
+    background-color: rgb(243, 173, 73);
+    padding: 30px;
+    text-align: center;
+  }
+}
