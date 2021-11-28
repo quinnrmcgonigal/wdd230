@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/homepage.css"/>
+    <title>Driggs</title>
+</head>
+<body>
+    <div class="logo">
+        <img class="logopic" src="images/newlogo.png">
+        <h1>Big Weather Guys</h1>
+    </div>
+    <nav class="menu">
+        <ul class="navigation">
+            <li><a class="home" href="#">Menu</a></li>
+            <li><a href="../../Lesson 9/homepage.html">Home</a></li>
+            <li><a class="active" href="driggshome.html">Driggs</a></li>
+            <li><a href="#">Victor</a></li>
+            <li><a href="#">Jackson Hole</a></li>
+            <li><a href="../../Lesson 8/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../../Lesson 7/gallery.html">Gallery</a></li>
+        </ul>
+        <script src="js/menu.js" defer></script>
+    </nav>
+    <div class="maincontent">
+        <h1 id="title">Driggs</h1>
+        <h3 id="bannerparty"></h3>
+        <img class="large" alt="tetonslarge" src="images/driggs-large">
+        <img class="medium" alt="tetonsmedium" src="images/driggs-medium">
+        <img class="small" alt="tetonssmall" src="images/driggs-small">
+        <ul class="hero">
+            <section class="weatherSummary">
+                <h3 class="sumtitle">Weather Summary</h3>
+                <p class="sumclr"><b>Currently: <span id="current-temp"></span>&deg;F <span id="weatherDescr"></span></b></p>
+                <p class="sumclr">High: <span id="highTemp"></span></p>
+                <p class="sumclr" id="windchill-container">Wind Chill: <span id="windchill"></span>&deg;F</p>
+                <p class="sumclr">Humidity: 69%</p>
+                <p class="sumclr">Wind Speed: <span id="windSpeed"></span> mph</p>
+            </section>
+        </ul>
+    </div>
+    <div class="forecast5">
+        <h3 class="title">5 Day Forecast</h3>
+        <div class="cast5">
+            <div>
+                <p id="day1"></p>
+                <img id="icon1" src="" alt="">
+                <p id="forecast1"></p>
+            </div>
+            <div>
+                <p id="day2"></p>
+                <img id="icon2" src="" alt="">
+                <p id="forecast2"></p>
+            </div>
+            <div>
+                <p id="day3"></p>
+                <img id="icon3" src="" alt="">
+                <p id="forecast3"></p>
+            </div>
+            <div>
+                <p id="day4"></p>
+                <img id="icon4" src="" alt="">
+                <p id="forecast4"></p>
+            </div>
+            <div>
+                <p id="day5"></p>
+                <img id="icon5" src="" alt="">
+                <p id="forecast5"></p>
+            </div>
+        </div>
+        <script src="js/weatherSummary.js"></script>
+    </div>
+    <div class="article">
+        <img class="founderimg" src="images/founder.jpeg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+    </div>
+    <div class="contactinfo">
+        <img class="map" src="images/driggsmap.png">
+        <div class="contactdiv">
+            <h3>Big Weather Guys</h3>
+            <p>220 S 2nd W</p>
+            <p>Rexburg, ID 83440</p>
+            <p></p>
+            <p>&#128222; 999.999.9999</p>
+            <p>&#128231; bigweatherguys@gmail.com</p>
+            <img class="fb" src="images/fb.png">
+            <img class="twitter" src="images/twitter.png">
+            <img class="pin" src="images/pin.png">
+        </div>
+    </div>
+    
+    <footer>
+        <div>
+            <p id="bottom">©Big Weather Guys | Attributions | Quinn McGonigal <span id="demo"></span> </p>
+        </div>
+        <script src="js/date.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+          families: [
+             'Yaldevi', 'Gemunu+Libre', 'Josefin+Sans', 'Montserrat'
+          ]
+        }
+      });</script>
+</body>
+</html>

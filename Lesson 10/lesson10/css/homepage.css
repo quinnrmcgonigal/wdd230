@@ -1,0 +1,610 @@
+#bannerparty {
+  background-color: black;
+  color: white;
+  border-color: rgb(223, 67, 0);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.cast5 {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(36, 36, 36, 0.454);
+  opacity: 75%;
+  color: white;
+  border: 3px solid  rgb(237, 118, 62);
+  border-radius: 25px;
+  width: 340px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+.sumtitle {
+font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  font-family: 'Yaldevi', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+p,
+th {
+  font-family: 'Yaldevi', sans-serif;
+  padding: 10px;
+}
+
+a.active {
+  background-color: black;
+}
+
+nav {
+  margin: 0 auto;
+}
+.navigation {
+  list-style: none;
+  max-width: 100%;
+  padding: 0;
+}
+.navigation li:first-child {
+  display: block;
+}
+.navigation li {
+  display: none;
+}
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  transition: 0.5s;
+
+  background-color: rgb(234, 65, 51);
+}
+.navigation a:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+  border-style: solid;
+  border-radius: 100px;
+}
+
+.logopic {
+  width: 100px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  font-family: 'Gemunu Libre', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h2,
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p,
+li {
+  font-family: 'Yaldevi', sans-serif;
+  padding: 10px;
+}
+
+
+.responsive li {
+  display: block;
+}
+
+.hero,
+.fiveday,
+.article,
+.contactinfo {
+  text-align: center;
+  border-style: solid;
+  border-radius: 20px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(0, 16, 43);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+  background-color: rgb(234, 65, 51);
+}
+
+#bottom {
+  color: white;
+  background-color: rgb(243, 173, 73);
+  padding: 30px;
+}
+
+.weatherimg {
+  width: 50px;
+}
+
+.fiveday {
+  background-color: rgb(237, 118, 62);
+}
+
+.tabledays {
+  border: solid;
+  border-color: black;
+}
+
+th {
+  border-right: solid;
+  border-left: solid;
+  border-color: black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.small {
+  max-width: 600px;
+  width: 100%;
+}
+
+.medium,
+.large {
+  display: none;
+}
+.hero {
+  max-width: 350px;
+  padding: 20px;
+  border-color: rgb(236, 91, 56);
+  background-color: black;
+  color: white;
+}
+.sumclr {
+  color: white;
+}
+
+.founderimg {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 19px 19px 0px 0px;
+}
+
+.article {
+  background-color: black;
+  color: white;
+  border-color: rgb(240, 143, 67);
+}
+
+.map {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  a.active {
+    background-color: black;
+  }
+
+  .navigation {
+    display: flex;
+    margin: auto;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+    padding: 20px;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .logopic {
+    width: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  h2,
+  a,
+  li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  p,
+  th {
+    font-family: 'Yaldevi', sans-serif;
+    padding: 10px;
+  }
+
+  .hero,
+  .fiveday,
+  .article,
+  .contactinfo {
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  body {
+    background-color: rgb(0, 16, 43);
+  }
+
+  .menu {
+    background-color: rgb(234, 65, 51);
+  }
+
+  #bottom {
+    color: white;
+    background-color: rgb(243, 173, 73);
+    padding: 30px;
+  }
+  .fiveday {
+    background-color: rgb(237, 118, 62);
+    margin: auto;
+    width: 500px;
+    margin-top: 20px;
+  }
+
+  .medium {
+    display: block;
+    max-width: 1040px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .small,
+  .large {
+    display: none;
+  }
+
+  .maincontent {
+    position: relative;
+    padding: 10px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sumheader {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .hero {
+    width: 350px;
+    padding: 20px;
+    border-color: rgb(236, 91, 56);
+    background-color: black;
+    color: white;
+  }
+  .sumclr {
+    color: white;
+  }
+
+  .founderimg {
+    max-width: 300px;
+    float: right;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .article {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1040px;
+    height: 100%;
+    border-color: rgb(240, 143, 67);
+  }
+
+  .contactinfo {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    max-width: 960px;
+  }
+
+  .contactdiv {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .map {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 400px;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    display: block;
+  }
+
+  .article {
+    color: black;
+  }
+
+  .cast5 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(36, 36, 36, 0.454);
+    opacity: 75%;
+    color: white;
+    border: 3px solid  rgb(237, 118, 62);
+    border-radius: 25px;
+    width: 340px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+
+.sumtitle {
+  font-family: 'Montserrat', sans-serif;
+}
+
+  .title {
+    font-family: 'Yaldevi', sans-serif;
+    text-align: center;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  a.active {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-radius: 100px;
+  }
+  .navigation {
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+    padding: 20px;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .logopic {
+    width: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  h2,
+  a,
+  li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  p,
+  th {
+    font-family: 'Yaldevi', sans-serif;
+    padding: 10px;
+  }
+
+  .hero,
+  .fiveday,
+  .article,
+  .contactinfo {
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+  }
+
+
+  .cast5 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(36, 36, 36, 0.454);
+    opacity: 75%;
+    color: white;
+    border: 3px solid  rgb(237, 118, 62);
+    border-radius: 25px;
+    width: 340px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+
+.sumtitle {
+  font-family: 'Montserrat', sans-serif;
+}
+
+  .title {
+    font-family: 'Yaldevi', sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+
+  footer {
+    text-align: center;
+  }
+
+  body {
+    background-color: rgb(0, 16, 43);
+  }
+
+  .menu {
+    background-color: rgb(234, 65, 51);
+  }
+
+  #bottom {
+    color: white;
+    background-color: rgb(243, 173, 73);
+    padding: 30px;
+  }
+  .fiveday {
+    background-color: rgb(237, 118, 62);
+    margin: auto;
+    width: 500px;
+    margin-top: 20px;
+  }
+
+  .large {
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .maincontent {
+    position: relative;
+    padding: 10px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    opacity: 75%;
+    background-color: black;
+    border-color: rgb(236, 91, 56);
+  }
+
+  .sumheader {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .sumclr {
+    color: white;
+  }
+
+  .founderimg {
+    max-width: 300px;
+    float: right;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .article {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    height: 100%;
+    border-color: rgb(240, 143, 67);
+  }
+
+  .contactinfo {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    max-width: 1200px;
+  }
+
+  .contactdiv {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .map {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 400px;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+  }
+
+  .small,
+  .medium {
+    display: none;
+  }
+}
