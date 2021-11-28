@@ -1,10 +1,10 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'https://quinnrmcgonigal.github.io/wdd230/Lesson%2011/js/towns.json';
 fetch(requestURL)
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
-        const towns = jsonObject['towns'].filter(town => town.name == "Fish Haven" || town.name == "Preston" || town.name == "Soda Springs");
+        const towns = jsonObject['towns'].filter(town => town.name == "Driggs" || town.name == "Preston" || town.name == "Victor");
         // console.log(towns); //delete after use
         const activeTown = document.querySelector('li.active a').textContent;
         towns.forEach(town => {
@@ -49,11 +49,11 @@ fetch(requestURL)
                         lon = -111.876617;
                         lat = 42.09631;
                         break;
-                    case "Soda Springs":
+                    case "Victor":
                         lon = -111.604668;
                         lat = 42.654369;
                         break;
-                    case "Fish Haven":
+                    case "Driggs":
                         lon = -111.3960;
                         lat = 42.0372;
                         break;
