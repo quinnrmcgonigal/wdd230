@@ -4,66 +4,29 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        const towns = jsonObject['towns'].filter(town => town.name == "Driggs" || town.name == "Preston" || town.name == "Victor");
-        // console.log(towns); //delete after use
+        const towns = jsonObject['towns'].filter(town => town.name == "Jackson Hole" || town.name == "Driggs" || town.name == "Victor");
         const activeTown = document.querySelector('li.active a').textContent;
         towns.forEach(town => {
-            //Homepage town cards
             if (activeTown == "Home") {
-                    let card = document.createElement('section')
-                    let div = document.createElement('div')
-                    let h3 = document.createElement('h3');
-                    let p1 = document.createElement('p');
-                    let p2 = document.createElement('p');
-                    let p3 = document.createElement('p');
-                    let p4 = document.createElement('p');
-                    let image = document.createElement('img');
-
-                    div.setAttribute('class', 'townData')
-                    h3.textContent = town.name;
-                    h3.setAttribute('class', 'townName');
-                    p1.textContent = town.motto;
-                    p1.setAttribute('class', 'townMoto');
-                    p2.textContent = "Year Founded: " + town.yearFounded;
-                    p3.textContent = "Population: " + town.currentPopulation;
-                    p4.textContent = "Annual Rain Fall: " + town.averageRainfall;
-                    image.setAttribute('src', `images/home/${town.photo}`);
-                    image.setAttribute('alt', town.name);
-
-                    div.appendChild(h3);
-                    div.appendChild(p1);
-                    div.appendChild(p2);
-                    div.appendChild(p3);
-                    div.appendChild(p4);
-                    card.appendChild(div);
-                    card.appendChild(image);
-
-                    document.querySelector('div.cards').appendChild(card);
-                }
+}
             else {
-            //Town Weather Summary
                 let lon;
                 let lat;
                 switch(activeTown){
-                    case "Preston":
-                        lon = -111.876617;
-                        lat = 42.09631;
-                        break;
                     case "Victor":
-                        lon = -111.604668;
-                        lat = 42.654369;
+                        lon = 111.1113;
+                        lat = 43.6026;
                         break;
-                    case "Driggs":
-                        lon = -111.3960;
-                        lat = 42.0372;
+                    case "Jackson Hole":
+                        lon = 110.7624;
+                        lat = 43.4799;
                         break;
                     
                 }
-                const requestURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&APPID=afbcf6ac456ba0edf76d17cd9722668b&units=imperial`;
+                const requestURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&APPID=3c5e9fdd6251ff4adb6c894e7481862d&units=imperial`;
                 fetch(requestURL)
                     .then((response) => response.json())
                     .then((jsObject) => {
-                        // console.log(jsObject);
                         let highT = jsObject.main.temp_max;
                         let t = jsObject.main.temp;
                         let s = jsObject.wind.speed;
@@ -81,9 +44,7 @@ fetch(requestURL)
                         }
 
                     });
-
-                //Weekly Forecast
-                const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&APPID=afbcf6ac456ba0edf76d17cd9722668b&units=imperial`;
+                const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&APPID=3c5e9fdd6251ff4adb6c894e7481862d&units=imperial`;
                 fetch(forecastURL)
                     .then((response) => response.json())
                     .then((jsObject) => {
@@ -102,8 +63,6 @@ fetch(requestURL)
                             i++;
                         });
                     });
-
-                //Town Events
                 if(town.name == activeTown){
                 let eventHeader = document.createElement('h3');
                 let events = town.events;
@@ -114,7 +73,7 @@ fetch(requestURL)
                     li.textContent = event;
                     eventList.appendChild(li);
                 }); 
-                eventHeader.textContent= `${town.name} Upcomming events`;
+                eventHeader.textContent= `${town.name} Upcoming Events`;
                 eventsDiv.appendChild(eventHeader);
                 eventsDiv.appendChild(eventList);
                 }

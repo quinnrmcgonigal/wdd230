@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/homepage.css"/>
-    <title>Driggs</title>
+    <link rel="stylesheet" href="css/victorhomepage.css"/>
+    <title>Jackson Hole</title>
 </head>
 <body>
     <div class="logo">
@@ -15,28 +15,28 @@
     <nav class="menu">
         <ul class="navigation">
             <li><a class="home" href="#">Menu</a></li>
-            <li><a href="../../Lesson 9/homepage.html">Home</a></li>
-            <li><a class="active" href="driggshome.html">Driggs</a></li>
-            <li><a href="../../Lesson 11/victorhome.html">Victor</a></li>
-            <li><a href="../../Lesson 11/jacksonholehome.html">Jackson Hole</a></li>
-            <li><a href="../../Lesson 8/lesson8/stormcenter.html">Storm Center</a></li>
-            <li><a href="../../Lesson 7/gallery.html">Gallery</a></li>
+            <li><a href="../Lesson 9/homepage.html">Home</a></li>
+            <li><a href="../Lesson 10/lesson10/driggshome.html">Driggs</a></li>
+            <li><a href="victorhome.html">Victor</a></li>
+            <li class="active"><a href="#">Jackson Hole</a></li>
+            <li><a href="../Lesson 8/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../Lesson 7/gallery.html">Gallery</a></li>
         </ul>
         <script src="js/menu.js" defer></script>
     </nav>
     <div class="maincontent">
-        <h1 id="title">Driggs</h1>
+        <h1 id="title">Jackson Hole</h1>
         <h3 id="bannerparty"></h3>
-        <img class="large" alt="tetonslarge" src="images/driggs-large">
-        <img class="medium" alt="tetonsmedium" src="images/driggs-medium">
-        <img class="small" alt="tetonssmall" src="images/driggs-small">
+        <img class="large" alt="tetonslarge" src="images/jacksonhole-large.jpg">
+        <img class="medium" alt="tetonsmedium" src="images/jacksonhole-medium.jpg">
+        <img class="small" alt="tetonssmall" src="images/jacksonhole-small.jpg">
         <ul class="hero">
             <section class="weatherSummary">
                 <h3 class="sumtitle">Weather Summary</h3>
                 <p class="sumclr"><b>Currently: <span id="current-temp"></span>&deg;F <span id="weatherDescr"></span></b></p>
                 <p class="sumclr">High: <span id="highTemp"></span></p>
                 <p class="sumclr" id="windchill-container">Wind Chill: <span id="windchill"></span>&deg;F</p>
-                <p class="sumclr">Humidity: 69%</p>
+                <p class="sumclr">Humidity: <span id="humidity"></span></p>
                 <p class="sumclr">Wind Speed: <span id="windSpeed"></span> mph</p>
             </section>
         </ul>
@@ -70,14 +70,17 @@
                 <p id="forecast5"></p>
             </div>
         </div>
-        <script src="js/weatherSummary.js"></script>
-    </div>
     <div class="article">
         <img class="founderimg" src="images/founder.jpeg">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
     </div>
+    <main class="townMain">
+        <div id="upcomingEvents"></div>
+       <script src="js/towns.js"></script>
+   </div>
+</main>
     <div class="contactinfo">
-        <img class="map" src="images/driggsmap.png">
+        <img class="map" src="images/jacksonmap.png">
         <div class="contactdiv">
             <h3>Big Weather Guys</h3>
             <p>220 S 2nd W</p>
@@ -96,6 +99,7 @@
             <p id="bottom">©Big Weather Guys | Attributions | Quinn McGonigal <span id="demo"></span> </p>
         </div>
         <script src="js/date.js"></script>
+        <script src="js/weatherSummary.js"></script>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
@@ -107,4 +111,5 @@
         }
       });</script>
 </body>
+</html>
 </html>

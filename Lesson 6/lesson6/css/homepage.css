@@ -190,6 +190,30 @@ li {
   display: none;
 }
 
+.cast5 {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(36, 36, 36, 0.454);
+  opacity: 75%;
+  color: white;
+  border: 3px solid  rgb(237, 118, 62);
+  border-radius: 25px;
+  width: 340px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+.sumtitle {
+font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  font-family: 'Yaldevi', sans-serif;
+  text-align: center;
+  color: white;
+}
+
 @media only screen and (min-width: 600px) {
   a.active {
     background-color: black;
@@ -359,6 +383,30 @@ li {
 
   .article {
     color: black;
+  }
+
+  .cast5 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(36, 36, 36, 0.454);
+    opacity: 75%;
+    color: white;
+    border: 3px solid  rgb(237, 118, 62);
+    border-radius: 25px;
+    width: 340px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  
+  .sumtitle {
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  .title {
+    font-family: 'Yaldevi', sans-serif;
+    text-align: center;
+    color: white;
   }
 }
 
@@ -532,5 +580,29 @@ li {
   .small,
   .medium {
     display: none;
+  }
+
+  .cast5 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(36, 36, 36, 0.454);
+    opacity: 75%;
+    color: white;
+    border: 3px solid  rgb(237, 118, 62);
+    border-radius: 25px;
+    width: 340px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  
+  .sumtitle {
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  .title {
+    font-family: 'Yaldevi', sans-serif;
+    text-align: center;
+    color: white;
   }
 }

@@ -10,30 +10,6 @@
   text-align: center;
 }
 
-.cast5 {
-  display: flex;
-  justify-content: center;
-  background-color: rgba(36, 36, 36, 0.454);
-  opacity: 75%;
-  color: white;
-  border: 3px solid  rgb(237, 118, 62);
-  border-radius: 25px;
-  width: 340px;
-  margin: auto;
-  margin-bottom: 20px;
-}
-
-
-.sumtitle {
-font-family: 'Montserrat', sans-serif;
-}
-
-.title {
-  font-family: 'Yaldevi', sans-serif;
-  text-align: center;
-  color: white;
-}
-
 p,
 th {
   font-family: 'Yaldevi', sans-serif;
@@ -98,6 +74,7 @@ a {
 }
 
 h3 {
+  font-family: 'Josefin Sans', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -107,7 +84,6 @@ li {
   font-family: 'Yaldevi', sans-serif;
   padding: 10px;
 }
-
 
 .responsive li {
   display: block;
@@ -212,6 +188,30 @@ li {
 
 .map {
   display: none;
+}
+
+.cast5 {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(36, 36, 36, 0.454);
+  opacity: 75%;
+  color: white;
+  border: 3px solid  rgb(237, 118, 62);
+  border-radius: 25px;
+  width: 340px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+.sumtitle {
+font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  font-family: 'Yaldevi', sans-serif;
+  text-align: center;
+  color: white;
 }
 
 @media only screen and (min-width: 600px) {
@@ -397,12 +397,12 @@ li {
     margin: auto;
     margin-bottom: 20px;
   }
-
-
-.sumtitle {
+  
+  
+  .sumtitle {
   font-family: 'Montserrat', sans-serif;
-}
-
+  }
+  
   .title {
     font-family: 'Yaldevi', sans-serif;
     text-align: center;
@@ -480,32 +480,6 @@ li {
     margin-right: auto;
     background-color: white;
   }
-
-
-  .cast5 {
-    display: flex;
-    justify-content: center;
-    background-color: rgba(36, 36, 36, 0.454);
-    opacity: 75%;
-    color: white;
-    border: 3px solid  rgb(237, 118, 62);
-    border-radius: 25px;
-    width: 340px;
-    margin: auto;
-    margin-bottom: 20px;
-  }
-
-
-.sumtitle {
-  font-family: 'Montserrat', sans-serif;
-}
-
-  .title {
-    font-family: 'Yaldevi', sans-serif;
-    text-align: center;
-    color: white;
-  }
-
 
   footer {
     text-align: center;
@@ -606,5 +580,44 @@ li {
   .small,
   .medium {
     display: none;
+  }
+
+  .cast5 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(36, 36, 36, 0.454);
+    opacity: 75%;
+    color: white;
+    border: 3px solid  rgb(237, 118, 62);
+    border-radius: 25px;
+    width: 340px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  
+  .sumtitle {
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  .title {
+    font-family: 'Yaldevi', sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  #upcomingEvents {
+    margin: auto;
+    width: 340px;
+    border: rgb(237, 118, 62) solid 3px;
+    border-radius: 25px;
+    padding-right: 40px;
+  }
+
+  h3 {
+    padding-left: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
   }
 }
