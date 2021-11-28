@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Cloud Catch Site weather forecast for Soda Springs, Idaho"  >
+    <link rel="shortcut icon" href="favicon.ico">
+    <title> Cloud Catch- Soda Springs, Idaho</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+   
+<body>
+    <header>
+        <img class="logo" src="images/weathericon.png" alt="Cloud Catch logo">
+        <section class="header-text">
+        <h1>Cloud Catch</h1>
+        <div>For Idahoans fishing the clouds</div>
+        </section>
+    </header>
+    <nav class="main-nav">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li class="active"><a href="#">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="townMain">
+        
+       
+           
+             <div id="upcomingEvents"></div>
+            
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">&copy;<span></span> Cloud Catch | Attribution: 
+             <a href="https://openweathermap.org" target="_blank">OpenWeather</a>,
+             <a href="https://unsplash.com/photos/ouPVsS0cFjk" target="_blank">Elijah-Hail</a>, 
+             <a href="https://www.kpvi.com/news/local_news/country-superstar-shows-up-on-big-screen-at-local-drive-in-theatre/article_a21b6f68-ba37-11ea-954a-bbab723785be.html" target="_blank">KPVI Local News</a> | Anna Astle </p>
+        <p id="todaysDate"></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontloader.js"></script>
+    <script src="js/script.js"></script>    
+    <script src="js/towns.js"></script>
+</body>
+
+</html>
