@@ -3,10 +3,10 @@
       {
         "name": "Victor",
         "photo": "sodasprings.jpg",
-        "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
-        "yearFounded": 1858,
-        "currentPopulation": 2985,
-        "averageRainfall": 15.75,
+        "motto": "A Town to Come Home To.",
+        "yearFounded": 1889,
+        "currentPopulation": 2,216,
+        "averageRainfall": 20.3,
         "events": [
           "February 29: Geyser Song Day",
           "May 1-6: Days of May Celebration",
@@ -14,7 +14,7 @@
         ]
       },
       {
-        "name": "Springfield",
+        "name": "Jackson Hole",
         "photo": "springfield.jpg",
         "motto": "Where everyone is lifted.",
         "yearFounded": 1826,
