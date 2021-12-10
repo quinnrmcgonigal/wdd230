@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&family=Poppins:ital,wght@1,100&family=Raleway:wght@200&family=Ubuntu+Mono&display=swap');
+
+#menu1:hover, #menu2:hover, #menu3:hover, #menu4:hover, a.active {
+    border-top: solid 5px;
+    opacity: 1;
+}   
+
+#menu1, #menu2, #menu3, #menu4 {
+    text-decoration: none;
+    color: rgb(25, 81, 125);
+    margin: 30px;
+    padding: 15px;
+    border-top: solid 1.5px;
+    transition: 0.4s;
+}   
+
+.logo{
+    width: 250px;
+    position: absolute;
+    top: 30px;
+    left: 44.5%;
+}
+
+.menu {
+    float: left;
+    font-family: 'Ubuntu Mono', monospace;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+}
+
+body {
+    margin: 0;
+    position: relative;
+  text-align: center;
+  color: white;
+}
