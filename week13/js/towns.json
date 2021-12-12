@@ -1,6 +1,55 @@
 {
   "towns": [
-    
+    {
+
+      "name": "Victor",
+
+      "photo": "sodasprings.jpg",
+
+      "motto": "A Town to Come Home To.",
+
+      "yearFounded": 1889,
+
+      "currentPopulation": 2216,
+
+      "averageRainfall": 20.3,
+
+      "events": [
+
+        "February 29: Geyser Song Day",
+
+        "May 1-6: Days of May Celebration",
+
+        "October 15-16: Octoberfest"
+
+      ]
+
+    },{
+
+      "name": "Photo Packages",
+
+      "photo": "springfield.jpg",
+
+      "motto": "Where everyone is lifted.",
+
+      "yearFounded": 1826,
+
+      "currentPopulation": 17852,
+
+      "averageRainfall": 17,
+
+      "events": [
+
+        "January 8: Spring into Winter",
+
+        "April 10-20: Celebration of Life",
+
+        "July 31-Aug 15: Dog Days of Summer Festival"
+
+      ]
+
+    },
+
     {
       "name": "1 Hour Session",
       "events": [
