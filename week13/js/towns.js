@@ -4,7 +4,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        const towns = jsonObject['towns'].filter(town => town.name == "Photo Packages" || town.name == "Victor");
+        const towns = jsonObject['towns'].filter(town => town.name == "1 Hour Session" || town.name == "3 Hour Session" || town.name == "1 Day Session" || town.name == "Weekend Session");
         const activeTown = document.querySelector('a.active').textContent;
         towns.forEach(town => {
             if (activeTown == "Home") {
@@ -13,18 +13,18 @@ fetch(requestURL)
                 let lon;
                 let lat;
                 switch(activeTown){
-                    case "Victor":
-                        lon = 111.1113;
-                        lat = 43.6026;
-                        break;
                     case "Photo Packages":
                         lon = 110.7624;
                         lat = 43.4799;
                         break;
-                    case "Fish Haven":
-                        lon = 110.7624;
-                        lat = 43.4799;
-                            break;
+                    case "1 Hour Session":
+                        break;
+                    case "3 Hour Session":
+                        break;
+                    case "1 Day Session":
+                        break;
+                    case "Weekend Session":
+                        break;
                 }
                 
                 const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&APPID=3c5e9fdd6251ff4adb6c894e7481862d&units=imperial`;
@@ -46,7 +46,7 @@ fetch(requestURL)
                             i++;
                         });
                     });
-                if(town.name == "Fish Haven"){
+                if(town.name == "1 Hour Session"){
                 let eventHeader = document.createElement('h3');
                 let events = town.events;
                 let eventList = document.createElement('ul'); 
@@ -60,6 +60,48 @@ fetch(requestURL)
                 eventsDiv.appendChild(eventHeader);
                 eventsDiv.appendChild(eventList);
                 }
+                if(town.name == "3 Hour Session"){
+                    let eventHeader = document.createElement('h3');
+                    let events = town.events;
+                    let eventList = document.createElement('ul'); 
+                    let eventsDiv = document.querySelector("#upcomingEvents");
+                    events.forEach(event => {
+                        let li =document.createElement('li');
+                        li.textContent = event;
+                        eventList.appendChild(li);
+                    }); 
+                    eventHeader.textContent= `${town.name} Upcoming Events`;
+                    eventsDiv.appendChild(eventHeader);
+                    eventsDiv.appendChild(eventList);
+                    }
+                    if(town.name == "1 Day Session"){
+                        let eventHeader = document.createElement('h3');
+                        let events = town.events;
+                        let eventList = document.createElement('ul'); 
+                        let eventsDiv = document.querySelector("#upcomingEvents");
+                        events.forEach(event => {
+                            let li =document.createElement('li');
+                            li.textContent = event;
+                            eventList.appendChild(li);
+                        }); 
+                        eventHeader.textContent= `${town.name} Upcoming Events`;
+                        eventsDiv.appendChild(eventHeader);
+                        eventsDiv.appendChild(eventList);
+                        }
+                        if(town.name == "Weekend Session"){
+                            let eventHeader = document.createElement('h3');
+                            let events = town.events;
+                            let eventList = document.createElement('ul'); 
+                            let eventsDiv = document.querySelector("#upcomingEvents");
+                            events.forEach(event => {
+                                let li =document.createElement('li');
+                                li.textContent = event;
+                                eventList.appendChild(li);
+                            }); 
+                            eventHeader.textContent= `${town.name} Upcoming Events`;
+                            eventsDiv.appendChild(eventHeader);
+                            eventsDiv.appendChild(eventList);
+                            }
                 
 
             }
