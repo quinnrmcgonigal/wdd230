@@ -4,7 +4,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        const towns = jsonObject['towns'].filter(town => town.name == "Jackson Hole" || town.name == "Driggs" || town.name == "Victor");
+        const towns = jsonObject['towns'].filter(town => town.name == "Photo Packages" || town.name == "Driggs" || town.name == "Victor");
         const activeTown = document.querySelector('a.active').textContent;
         towns.forEach(town => {
             if (activeTown == "Home") {
@@ -17,7 +17,7 @@ fetch(requestURL)
                         lon = 111.1113;
                         lat = 43.6026;
                         break;
-                    case "Jackson Hole":
+                    case "Photo Packages":
                         lon = 110.7624;
                         lat = 43.4799;
                         break;
