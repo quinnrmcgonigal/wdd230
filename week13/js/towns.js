@@ -4,7 +4,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        const towns = jsonObject['towns'].filter(town => town.name == "Fish Haven" || town.name == "Victor");
+        const towns = jsonObject['towns'].filter(town => town.name == "Photo Packages" || town.name == "Victor");
         const activeTown = document.querySelector('a.active').textContent;
         towns.forEach(town => {
             if (activeTown == "Home") {
