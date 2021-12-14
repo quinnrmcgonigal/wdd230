@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&family=Poppins:ital,wght@1,100&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&family=Poppins:ital,wght@1,100&family=Raleway:wght@200&family=Ubuntu+Mono&display=swap');
+
+.cast5 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    opacity: 50%;
+    color: white;
+    border: 3px solid  rgb(25, 81, 125);
+    border-radius: 25px;
+    width: 340px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'M PLUS 1 Code', sans-serif;
+  }
+
+.forecast5 {
+    position: absolute;
+    bottom:180px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 240px;
+  }
+
+
+.body {
+    margin:0;
+}
+
+
+.cards {
+    background-color: black;
+    list-style: none;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    background: rgb(25, 81, 125);
+
+    
+}
+
+.headerimg2 {
+    display: inline;
+    margin: 0;
+    position:relative;
+    z-index:-1;
+    max-width: 100%;
+}
+    
+.headerimg {
+    display: none;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+    
+h3 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30px;
+}
+    
+    
+img {
+    width: 100%;
+}
+
+.gradient {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(25, 81, 125,1) 100%);
+}
+
+ul {
+    grid-row: 2/3;
+    padding: 60px;
+    border: white solid 5px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.navigation {
+    border: rgba(0, 0, 0, 0);
+}
+
+.social {
+    padding: 10px;
+    justify-content: center;
+}
+    
+.instagram, .twitter, .facebook {
+    width: 25px;
+}
+    
+body {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.cards {
+    background-color: black;
+    list-style: none;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    background: rgb(25, 81, 125);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer {
+    color: black;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 700px) {
+
+    
+    div {
+        margin: 0;
+    }
+
+    .headerimg2 {
+        padding-top: 200px;
+        display: inline;
+        margin: 0;
+        position:relative;
+        z-index:-1;
+        max-width: 100%;
+    }
+        
+    .headerimg {
+        display: none;
+        margin: 0;
+    }
+        
+    li {
+        list-style: none;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+        
+    h3 {
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 30px;
+    }
+        
+        
+    img {
+        width: 100%;
+    }
+
+    .gradient {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(25, 81, 125,1) 100%);
+    }
+
+    ul {
+        grid-row: 2/3;
+        padding: 60px;
+        border: white solid 5px;
+        border-radius: 25px;
+        margin: 10px;
+    }
+
+    .navigation {
+        border: rgba(0, 0, 0, 0);
+    }
+
+    .social {
+        padding: 10px;
+        justify-content: center;
+    }
+        
+    .instagram, .twitter, .facebook {
+        width: 25px;
+    }
+        
+    body {
+        text-align: center;
+        color: white;
+        margin: 0;
+    }
+
+    .cards {
+        background-color: black;
+        list-style: none;
+        font-family: 'M PLUS 1 Code', sans-serif;
+        background: rgb(25, 81, 125);
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    footer {
+        color: black;
+        font-family: 'M PLUS 1 Code', sans-serif;
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1040px) {
+    .forecast5 {
+        position: absolute;
+        bottom:180px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-bottom: -200px;
+      }
+
+    .headerimg {
+        display: inline;
+        margin: 0;
+    }
+
+    .headerimg2 {
+        display: none;
+        margin: 0;
+    }
+
+
+    li {
+        list-style: none;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    ul {
+        grid-row: 2/3;
+    }
+
+    h3 {
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 30px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .banner {
+        top: 220px;
+        position: relative;
+    }
+
+    #bottom {
+        color: black;
+        font-family: 'M PLUS 1 Code', sans-serif;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-rows: auto auto;
+        margin-top:220px;
+    }
+
+    h3 {
+        grid-row: 1/2;
+    }
+
+    ul {
+        grid-row: 2/3;
+    }
+
+
+
+    .social {
+        width: 35px;
+        padding: 10px;
+        border-top: none;
+        ;
+    }
+
+    .headerimg {
+        position:relative;
+        z-index:-1;
+        max-width: 100%;
+    }
+
+    .gradient {
+        background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(25, 81, 125,1) 100%);
+    }
+}
+
+
+
+
+

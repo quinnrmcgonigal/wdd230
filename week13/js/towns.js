@@ -1,4 +1,4 @@
-const requestURL = 'https://quinnrmcgonigal.github.io/wdd230/week13/js/towns.json';
+const requestURL = 'https://quinnrmcgonigal.github.io/wdd230/week13/js/skisessions.json';
 fetch(requestURL)
     .then(function (response) {
         return response.json();
@@ -50,13 +50,13 @@ fetch(requestURL)
                 let eventHeader = document.createElement('h3');
                 let events = town.events;
                 let eventList = document.createElement('ul'); 
-                let eventsDiv = document.querySelector("#upcomingEvents");
+                let eventsDiv = document.querySelector(".cards");
                 events.forEach(event => {
                     let li =document.createElement('li');
                     li.textContent = event;
                     eventList.appendChild(li);
                 }); 
-                eventHeader.textContent= `${town.name} Upcoming Events`;
+                eventHeader.textContent= `${town.name}`;
                 eventsDiv.appendChild(eventHeader);
                 eventsDiv.appendChild(eventList);
                 }
@@ -64,13 +64,13 @@ fetch(requestURL)
                     let eventHeader = document.createElement('h3');
                     let events = town.events;
                     let eventList = document.createElement('ul'); 
-                    let eventsDiv = document.querySelector("#upcomingEvents");
+                    let eventsDiv = document.querySelector(".cards");
                     events.forEach(event => {
                         let li =document.createElement('li');
                         li.textContent = event;
                         eventList.appendChild(li);
                     }); 
-                    eventHeader.textContent= `${town.name} Upcoming Events`;
+                    eventHeader.textContent= `${town.name}`;
                     eventsDiv.appendChild(eventHeader);
                     eventsDiv.appendChild(eventList);
                     }
@@ -78,13 +78,13 @@ fetch(requestURL)
                         let eventHeader = document.createElement('h3');
                         let events = town.events;
                         let eventList = document.createElement('ul'); 
-                        let eventsDiv = document.querySelector("#upcomingEvents");
+                        let eventsDiv = document.querySelector(".cards");
                         events.forEach(event => {
                             let li =document.createElement('li');
                             li.textContent = event;
                             eventList.appendChild(li);
                         }); 
-                        eventHeader.textContent= `${town.name} Upcoming Events`;
+                        eventHeader.textContent= `${town.name}`;
                         eventsDiv.appendChild(eventHeader);
                         eventsDiv.appendChild(eventList);
                         }
@@ -92,19 +92,16 @@ fetch(requestURL)
                             let eventHeader = document.createElement('h3');
                             let events = town.events;
                             let eventList = document.createElement('ul'); 
-                            let eventsDiv = document.querySelector("#upcomingEvents");
+                            let eventsDiv = document.querySelector(".cards");
                             events.forEach(event => {
                                 let li =document.createElement('li');
                                 li.textContent = event;
                                 eventList.appendChild(li);
                             }); 
-                            eventHeader.textContent= `${town.name} Upcoming Events`;
+                            eventHeader.textContent= `${town.name}`;
                             eventsDiv.appendChild(eventHeader);
                             eventsDiv.appendChild(eventList);
                             }
-                
-
             }
-        });
-
+        }); 
     });

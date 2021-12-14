@@ -1,34 +1,165 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&family=Poppins:ital,wght@1,100&family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&family=Poppins:ital,wght@1,100&family=Raleway:wght@200&family=Ubuntu+Mono&display=swap');
 
+.headerimg {
+    display: none;
+}
+
+.headerimg2 {
+    display: inline;
+    position:relative;
+        z-index:-1;
+        max-width: 1040px;
+        width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.gradient {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 100%);
+}
+
+h1, p {
+        
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.aboutdiv {
+    background-color: black;
+    margin: 0;
+}
+
+.headerimg {
+    display: none;
+    margin: 0;
+}
+
+.aboutimg1, .aboutimg2 {
+    width: 100%;
+}
+
+.social {
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.instagram, .twitter, .facebook {
+    width: 35px;
+}
+
+.social {
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.instagram, .twitter, .facebook {
+    width: 35px;
+}
+
+body {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+
+
+@media only screen and (min-width: 700px) {
+    body {
+        margin: 0;
+        background-color: black;
+    }
+    .headerimg2 {
+        position:relative;
+        z-index:-1;
+        max-width: 1040px;
+        width: 100%;
+    }
+    
+    .gradient {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 100%);
+    }
+    
+    h1, p {
+        
+        font-family: 'M PLUS 1 Code', sans-serif;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .aboutdiv {
+        background-color: black;
+        margin: 0;
+    }
+    
+    .headerimg {
+        display: none;
+        margin: 0;
+    }
+
+    .aboutimg1, .aboutimg2 {
+        width: 100%;
+    }
+    
+    .social {
+        width: 100%;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .instagram, .twitter, .facebook {
+        width: 35px;
+    }
+
+    body {
+        text-align: center;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 1040px) {
 body {
     margin: 0;
     position: relative;
-  text-align: center;
-  color: white;
-  background-color: black;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
 
 .headerimg {
     position:relative;
     z-index:-1;
     max-width: 100%;
+    display: inline;
 }
 
 .gradient {
     background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 100%);
 }
 
 .midphotos, .midphoto1, .midphoto2 {
     float: left;
     display: flex;
     background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 100%);
+}
+
+.midphoto1, .midphoto2 {
+    z-index:-1;
 }
 
 h1, p {
-    
     font-family: 'M PLUS 1 Code', sans-serif;
     color: white;
     padding: 20px;
@@ -52,5 +183,9 @@ h1, p {
     border-top: none;
 }
 
+.headerimg2 {
+    display: none;
+}
 
+}
 

@@ -1,41 +1,189 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&family=Poppins:ital,wght@1,100&family=Raleway:wght@200&family=Ubuntu+Mono&display=swap');
-
-#menu1:hover, #menu2:hover, #menu3:hover, #menu4:hover, a.active {
-    border-top: solid 5px;
-    opacity: 1;
-}   
-
-#menu1, #menu2, #menu3, #menu4 {
-    text-decoration: none;
-    color: rgb(25, 81, 125);
-    margin: 30px;
-    padding: 15px;
-    border-top: solid 1.5px;
-    transition: 0.4s;
-}   
-
-.logo{
-    width: 250px;
-    position: absolute;
-    top: 30px;
-    left: 44.5%;
-}
-
-.menu {
-    float: left;
-    font-family: 'Ubuntu Mono', monospace;
-    position: absolute;
-    top: 150px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&family=Poppins:ital,wght@1,100&family=Raleway:wght@200&family=Ubuntu+Mono&display=swap');
+a.active {
+    background-color: black;
+  }
+  
+  nav {
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .navigation {
     list-style: none;
-    display: flex;
-}
+    max-width: 100%;
+    padding: 0;
+  }
+  .navigation li:first-child {
+    display: block;
+  }
+  .navigation li {
+    display: none;
+  }
+  .navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    background-color: rgb(25, 81, 125);
+  }
+  .navigation a:hover {
+  }
 
-body {
-    margin: 0;
-    position: relative;
-  text-align: center;
-  color: white;
+  .responsive li {
+    display: block;
+  }
+
+  .logo {
+    width: 160px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding-top: 40px;
+    padding-left: 60px;
+  }
+ 
+
+  @media only screen and (min-width: 700px) {
+    .active {
+      border-top: solid rgb(25, 81, 125) 5px;
+    }
+  
+    .navigation {
+      display: flex;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(25, 81, 125, 0);
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+  
+    .navigation a {
+      border-top: solid rgb(25, 81, 125) 2px;
+      font-family: 'M PLUS 1 Code', sans-serif;
+      font-size: 15px;
+      color: rgb(25, 81, 125);
+    }
+
+    
+    .navigation a:hover {
+      border-top: solid rgb(25, 81, 125) 5px;
+    }
+
+    .menu {
+      padding-top:120px;
+      padding-right: 73px;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+
+    
+    
+    .logo {
+      width: 160px;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      padding-top: 40px;
+      padding-left: 60px;
+    }
+a {
+  margin-right: 40px;
+  margin-left: 40px;
 }
+  }
+
+ 
+  @media only screen and (min-width: 1040px) {
+    .active {
+      border-top: solid rgb(25, 81, 125) 5px;
+    }
+  
+    .navigation {
+      display: flex;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      text-align: center;
+      max-width: 1200px;
+    }
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(25, 81, 125, 0);
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+  
+    .navigation a {
+      border-top: solid rgb(25, 81, 125) 2px;
+      font-family: 'M PLUS 1 Code', sans-serif;
+      font-size: 20px;
+      color: rgb(25, 81, 125);
+    }
+
+    
+    .navigation a:hover {
+      border-top: solid rgb(25, 81, 125) 5px;
+    }
+
+    .menu {
+      padding-top:120px;
+      padding-right: 73px;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+    
+    .logo {
+      width: 200px;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      padding-top: 40px;
+    }
+a {
+  margin-right: 80px;
+  margin-left: 80px;
+}
+  }
+
+  
+
+  
+  
+  
+ 
+
+  

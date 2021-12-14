@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&family=Poppins:ital,wght@1,100&family=Raleway:wght@200&family=Ubuntu+Mono&display=swap');
+a.active {
+    background-color: black;
+  }
+  
+  nav {
+    margin: 0 auto;
+  }
+  .navigation {
+    list-style: none;
+    max-width: 100%;
+    padding: 0;
+  }
+  .navigation li:first-child {
+    display: block;
+  }
+  .navigation li {
+    display: none;
+  }
+  .navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    background-color: rgb(25, 81, 125);
+    
+  }
+  .navigation a:hover {
+    color: white;
+  }
+
+  .responsive li {
+    display: block;
+  }
+ 
+ 
+  @media only screen and (min-width: 600px) {
+    a.active {
+      background-color: black;
+    }
+  
+    .navigation {
+      display: flex;
+      margin: auto;
+      width: 1200px;
+    }
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      text-align: center;
+      padding: 20px;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+  
+    .navigation a {
+      background-color: white;
+      color:rgb(25, 81, 125) ;
+      width: 150px;
+      border-top: solid rgb(25, 81, 125) 2px;
+      font-family: 'M PLUS 1 Code', sans-serif;
+      font-size: 20px;
+    }
+    
+    .navigation a:hover { 
+      color: rgb(25, 81, 125);
+      border-top: solid rgb(25, 81, 125) 5px;
+    }
+
+    .menu {
+      padding-top:180px;
+    }
+    
+  }
+
+  
+
+  
+  
+  
+ 
+
+  

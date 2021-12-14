@@ -29,6 +29,7 @@ main div.cards{
  @media(min-width: 800px){
   
     main div.cards{
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }   
 

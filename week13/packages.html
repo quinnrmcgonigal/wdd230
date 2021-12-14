@@ -6,51 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PACKAGES</title>
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/packages.css">
 </head>
 <body>
-    <main>
         <div>
             <img class="logo" src="images/eskimologo.png" alt="logo">
         </div>
-        <div class="menu">
-            <a id="menu1" href="index.html">Home</a>
-            <a  id="menu2" href="gallery.html">Gallery</a>
-            <a class="active" href="packages.html">Photo Packages</a>
-            <a id="menu4" href="aboutus.html">About Us</a>
-        </div>
-        <div class="forecast5">
-            <h3 class="title">5 Day Forecast</h3>
-            <div class="cast5">
-                <div>
-                    <p id="day1"></p>
-                    <img id="icon1" src="" alt="">
-                    <p id="forecast1"></p>
-                </div>
-                <div>
-                    <p id="day2"></p>
-                    <img id="icon2" src="" alt="">
-                    <p id="forecast2"></p>
-                </div>
-                <div>
-                    <p id="day3"></p>
-                    <img id="icon3" src="" alt="">
-                    <p id="forecast3"></p>
-                </div>
-                <div>
-                    <p id="day4"></p>
-                    <img id="icon4" src="" alt="">
-                    <p id="forecast4"></p>
-                </div>
-                <div>
-                    <p id="day5"></p>
-                    <img id="icon5" src="" alt="">
-                    <p id="forecast5"></p>
-                </div>
+        <nav class="menu">
+            <ul class="navigation">
+                <li><a class="home" href="#"> &#9776;</a></li>
+                <li><a id="menu1" href="index.html">Home</a></li>
+                <li><a id="menu2" href="gallery.html">Gallery</a></li>
+                <li><a class="active" id="menu3" href="packages.html">Photo Packages</a></li>
+                <li><a  id="menu4" href="aboutus.html">About Us</a></li>
+            </ul>
+            <script src="js/menu.js" defer></script>
+        </nav>
+        <div class="banner">
+            <div class="gradient">
+                <img class="headerimg" src="images/packagebanner.jpg">
+                <img class="headerimg2" src="images/packagebannermed.jpg">
             </div>
-        <main class="townMain">
-            <div id="upcomingEvents"></div>
+            <div class="forecast5">
+                <h3 class="title">5 Day Forecast</h3>
+                <div class="cast5">
+                    <div>
+                        <p id="day1"></p>
+                        <img id="icon1" src="" alt="">
+                        <p id="forecast1"></p>
+                    </div>
+                    <div>
+                        <p id="day2"></p>
+                        <img id="icon2" src="" alt="">
+                        <p id="forecast2"></p>
+                    </div>
+                    <div>
+                        <p id="day3"></p>
+                        <img id="icon3" src="" alt="">
+                        <p id="forecast3"></p>
+                    </div>
+                    <div>
+                        <p id="day4"></p>
+                        <img id="icon4" src="" alt="">
+                        <p id="forecast4"></p>
+                    </div>
+                    <div>
+                        <p id="day5"></p>
+                        <img id="icon5" src="" alt="">
+                        <p id="forecast5"></p>
+                    </div>
+                </div>
+            </div> 
+        </div>  
+        <main>
+            <div class="cards"></div>
            <script src="js/towns.js"></script>
         </main>
-    </main>
+        <footer>
+            <div>
+                <p id="bottom">©Eskimo Photography | Attributions | Quinn McGonigal <span id="demo"></span> </p>
+            </div>
+            <script src="js/date.js"></script>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com"><img class="facebook" src="images/facebook.png"></a>
+                <a href="https://www.instagram.com"><img class="instagram" src="images/instagram.png"></a>
+                <a href="https://twitter.com"><img class="twitter" src="images/twitter.png"></a>
+            </div>
+        </footer>
 </body>
 </html>

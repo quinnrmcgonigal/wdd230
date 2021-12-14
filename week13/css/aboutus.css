@@ -1,0 +1,242 @@
+.headerimg {
+    display: none;
+}
+
+.headerimg2 {
+    display: inline;
+    width: 100%;
+}
+
+p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+body {
+    margin: 0;
+    position: relative;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.social {
+    width: 35px;
+    padding: 10px;
+    border-top: none;
+    color: black;
+}
+
+#bottom {
+    color: white;
+    
+}
+
+h1, h3, p {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: white;
+}
+
+.headerimg {
+    position:relative;
+    z-index:-1;
+    max-width: 100%;
+}
+
+.gradient {
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 100%);
+}
+
+.contactinfo {
+    grid-column: 2/3;
+    border-radius: 25px;
+    border: solid rgb(25, 81, 125) 5px;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+    }
+    
+    .aboutus {
+        grid-column: 1/2;
+        border-radius: 25px;
+        border: solid rgb(25, 81, 125) 5px;
+        width: 80%;
+        margin-left:auto;
+        margin-right:auto;
+        padding-top: 5%;
+        margin-bottom: 20px;
+    }
+@media only screen and (min-width: 700px) {
+    .headerimg {
+        display: none;
+    }
+
+    .headerimg2 {
+        display: inline;
+    }
+
+    p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    body {
+        margin: 0;
+        position: relative;
+      text-align: center;
+      color: white;
+      background-color: black;
+    }
+    
+    .social {
+        width: 35px;
+        padding: 10px;
+        border-top: none;
+        color: black;
+    }
+    
+    #bottom {
+        color: white;
+        
+    }
+    
+    h1, h3, p {
+        font-family: 'M PLUS 1 Code', sans-serif;
+        color: white;
+    }
+    
+    .headerimg {
+        position:relative;
+        z-index:-1;
+        max-width: 100%;
+    }
+    
+    .gradient {
+        background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 100%);
+    }
+
+    .contactinfo {
+        grid-column: 2/3;
+        border-radius: 25px;
+        border: solid rgb(25, 81, 125) 5px;
+        width: 80%;
+        margin-left:auto;
+        margin-right:auto;
+        
+        }
+        
+        .aboutus {
+            grid-column: 1/2;
+            border-radius: 25px;
+            border: solid rgb(25, 81, 125) 5px;
+            width: 80%;
+            margin-left:auto;
+            margin-right:auto;
+            padding-top: 5%;
+            
+        }
+
+        .aboutinfo {    
+            margin-left:auto;
+            margin-right:auto;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin-bottom: 30px;
+        }
+}
+
+@media only screen and (min-width: 1040px) {
+.headerimg {
+    display: inline;
+}
+
+.headerimg2 {
+    display: none;
+}
+
+p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+body {
+    margin: 0;
+    position: relative;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.social {
+    width: 35px;
+    padding: 10px;
+    border-top: none;
+    color: black;
+}
+
+#bottom {
+    color: white;
+    
+}
+
+h1, h3, p {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: white;
+}
+
+.headerimg {
+    position:relative;
+    z-index:-1;
+    max-width: 100%;
+}
+
+.gradient {
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 100%);
+}
+
+.aboutinfo {    
+    margin-left:auto;
+    margin-right:auto;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 30px;
+}
+
+.contactinfo {
+grid-column: 2/3;
+border-radius: 25px;
+border: solid rgb(25, 81, 125) 5px;
+width: 80%;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+.aboutus {
+    grid-column: 1/2;
+    border-radius: 25px;
+    border: solid rgb(25, 81, 125) 5px;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 5%;
+    
+}
+
+.large {
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 50px;
+    position: absolute;
+    top:30%;
+    left:0;
+    right:0;
+}
+
+}
